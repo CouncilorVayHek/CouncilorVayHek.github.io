@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <!-- Page metadata -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kyberturvallisuus on tärkeää!" />
+  <meta name="author" content="Iida" />
+
+  <!-- Main CSS stylesheets -->
+  <link href="styles/mainstylesheet.css" rel="stylesheet" />
+  <link href="styles/uutiset.css" rel="stylesheet" />
+  <link href="styles/typography.css" rel="stylesheet" />
+
+  <!-- RSS Feed-->
+  <link rel="alternate" type="application/rss+xml" title="KyberTurva RSS Feed" href="rss.xml" />
+
+
+  <!-- Google Fonts: Ubuntu -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Page title -->
+  <title>KyberTurva</title>
+</head>
+
+<body>
+  <div class="page-wrapper">
+
+    <!-- Header: logo and navigation -->
+    <header>
+      <div class="topnav">
+        <div class="nav-inner">
+
+          <!-- Branding section: logo and site name -->
+          <div class="branding">
+            <a href="index.html" class="site-name">KyberTurva</a>
+            <a href="index.html">
+              <img src="styles/images/pink_logo.png" alt="KyberTurva logo" class="logo" />
+            </a>
+          </div>
+
+          <!-- Navigation links -->
+          <nav>
+            <a href="index.html">Home</a>
+            <a class="active" href="uutiset.html">Uutiset</a>
+            <a href="koulutukset.html">Koulutukset</a>
+          </nav>
+
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO 2 -->
+    <section class="hero-image hero-two">
+      <div class="container">
+        <div class="hero-text">
+          <h1>Uutiset</h1>
+          <p style="color: white;">Täältä löytyy ajankohtaisia uutisia liittyen Suomen ja maailman kyberturvaan.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSS Feed: Kyberturvallisuuskeskus - Päivittäinen uutiskooste -->
+    <section class="rss-feed">
+      <div class="content">
+        <h2>Kyberturvallisuuskeskus - Päivittäinen Uutiskooste</h2>
+        <ul id="rss-ncsc"></ul>
+      </div>
+    </section>
+
+
+    <!-- RSS Feed: Kyberturvallisuuskeskus - Kaikki Ajankohtaista -->
+    <section class="rss-feed">
+      <div class="content">
+        <h2>Kyberturvallisuuskeskus - Kaikki Ajankohtaista</h2>
+        <ul id="rss-fi"></ul>
+      </div>
+    </section>
+
+    <!-- RSS Feed: Kyberturvallisuuskeskus - Tietoturva Nyt -->
+    <section class="rss-feed">
+      <div class="content">
+        <h2>Kyberturvallisuuskeskus - Tietoturva Nyt</h2>
+        <ul id="rss-399"></ul>
+      </div>
+    </section>
+
+    <!-- RSS Feed: Hacker News -->
+    <section class="rss-feed">
+      <div class="content">
+        <h2>Hacker News</h2>
+        <ul id="rss-hackernews"></ul>
+      </div>
+    </section>
+
+
+    <!-- "Back to top" button -->
+    <button onclick="topFunction()" id="myBtn">
+      <img src="styles/images/arrowup.png" alt="Go to top" />
+    </button>
+
+    <!-- Footer-->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <p>&copy; 2025 CouncilorVayHek</p>
+        <p><a href="https://github.com/CouncilorVayHek">Github</a></p>
+      </div>
+    </footer>
+
+    <!-- External JS file -->
+    <script src="scripts/allpages.js"></script>
+    <script src="scripts/rss.js"></script>
+    <script src="scripts/rssKTK.js"></script>
+
+
+  </div>
+</body>
+
+</html>
