@@ -59,7 +59,7 @@ body {
   .school-list a {
     font-weight: 500;
     font-size: 0.95rem;
-    color: #08727d;
+    color: #ffffff;
     text-decoration: none;
     margin-right: 10px;
   }
@@ -85,28 +85,5 @@ body {
   
   .site-footer a:hover {
     text-decoration: none;
-  }
-  
-  /* Back to top button styling (optional match) */
-  #myBtn {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    display: none;
-    background-color: #b85fd5;
-    border: none;
-    border-radius: 50%;
-    padding: 12px;
-    cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
-  
-  #myBtn img {
-    width: 20px;
-    height: 20px;
-  }
-  
-  #myBtn:hover {
-    background-color: #9c44bf;
   }
   
