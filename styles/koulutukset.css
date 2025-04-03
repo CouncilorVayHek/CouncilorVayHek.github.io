@@ -9,9 +9,9 @@ body {
   
   .container {
     max-width: 90%;
-    margin: 50px auto;
+    margin: 20px auto;
     background-color: #ffffff;
-    padding: 30px 40px;
+    padding: 10px 40px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   }

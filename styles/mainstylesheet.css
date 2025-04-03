@@ -225,6 +225,10 @@ blockquote footer {
   background-image: url("../styles/images/uutishero.png");
 }
 
+.hero-three {
+  background-image: url("../styles/images/uutishero.png");
+}
+
 .hero-image::after {
   content: "";
   position: absolute;
