@@ -68,22 +68,5 @@ body {
     text-decoration: underline;
   }
   
-  /* Footer consistency */
-  .site-footer {
-    background: linear-gradient(to right, #d17df2, #9fdce1);
-    text-align: center;
-    padding: 20px 10px;
-    margin-top: 50px;
-    font-size: 0.9rem;
-    color: white;
-  }
-  
-  .site-footer a {
-    color: white;
-    text-decoration: underline;
-  }
-  
-  .site-footer a:hover {
-    text-decoration: none;
-  }
+
   
