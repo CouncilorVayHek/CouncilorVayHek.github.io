@@ -375,10 +375,10 @@ blockquote footer {
   bottom: 30px;
   right: 30px;
   z-index: 999;
-  background-color: rgba(241, 241, 241, 0.6);
+  background-color: rgb(255, 255, 255);
   border: none;
   outline: none;
-  padding: 12px;
+  padding: 5px;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -386,8 +386,8 @@ blockquote footer {
 }
 
 #myBtn img {
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
   display: block;
 }
 
